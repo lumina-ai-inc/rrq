@@ -11,7 +11,7 @@ services:
   rrq:
     deploy:
       replicas: 0
-    image: luminainc/rrq:2e670df
+    image: luminainc/rrq:9326b10
     ports:
       - "8000:8000"
     environment:
@@ -22,7 +22,7 @@ services:
   rrq-analytics:
     deploy:
       replicas: 0
-    image: luminainc/rrq-analytics:2e670df
+    image: luminainc/rrq-analytics:9326b10
     ports:
       - "5173:5173"
     environment:
